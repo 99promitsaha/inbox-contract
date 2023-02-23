@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'dilemma obvious stumble action barrel wedding circle rookie renew manage abandon glide', // test wallet seed phrase
+    '', // test wallet seed phrase
     'https://goerli.infura.io/v3/f6e2ff0a69e24617b1a9e716ddc19403'
 );
 const web3 = new Web3(provider);
